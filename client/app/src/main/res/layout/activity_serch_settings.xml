@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+   <!-- <TextView
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/serch_settings"
+        android:textSize="20sp"
+        android:textColor="@color/black"/>-->
+    <TextView
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SEARCH SETTINGS"
+        android:textSize="20sp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Age"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:textSize="16sp"/>
+
+        />
+    <RelativeLayout
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/left_age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:textColor="@color/black"
+            android:text="@string/_16"
+            android:layout_alignParentStart="true"
+            android:textSize="30sp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp" />
+        <TextView
+            android:id="@+id/right_age"
+            android:layout_marginRight="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:text="@string/_100"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="8dp" />
+    </RelativeLayout>
+<com.crystal.crystalrangeseekbar.widgets.CrystalRangeSeekbar
+    android:id="@+id/rangeSeekbar1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:min_value="0"
+    app:max_value="100"/>
+
+
+    <TextView
+        android:layout_marginTop="8dp"
+        android:textSize="17sp"
+        android:textColor="@color/black"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/select_a_search_area"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+   <Spinner
+       android:layout_marginTop="8dp"
+       android:id="@+id/spinnerCitySerch"
+       android:layout_marginRight="8dp"
+       android:layout_marginLeft="8dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"/>
+
+
+</LinearLayout>

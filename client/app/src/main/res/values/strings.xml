@@ -1,0 +1,184 @@
+<resources>
+    <string name="app_name">Meet me</string>
+    <string name="icon_home">Home</string>
+    <string name="icon_rating">Rating</string>
+    <string name="icon_search">Search</string>
+    <string name="icon_notification">Notification</string>
+    <string name="rating_bottom">Рейтинг</string>
+    <string name="hello_world">hello world</string>
+    <string name="namess">Светлана Атаманова</string>
+    <string name="my_dialog">Мои Диалоги</string>
+    <string name="Osebe">О себе</string>
+    <string name="informationusers">Скромная девушка ищу парня для серьезных отношений, главное на мое мнение в парне это ум, мужество, BMW.Я считатаю что я самая умная красивая и ахуеная гучи дамма на планете</string>
+
+    <!-- Имена Девушек -->
+    <string name="chika1_name">Екатерина Стрельцова</string>
+    <string name="chika2_name">Дарья Домафеева</string>
+    <string name="chika3_name">Анастасия Багрянец</string>
+    <string name="chika4_name">Карина Дэлф</string>
+    <string name="chika5_name">Елена Плохенко</string>
+    <string name="chika6_name">Викторяи Волд</string>
+    <string name="chika7_name">Мария Загастюк</string>
+    <string name="chika8_name">Екатерина Мясная</string>
+    <string name="chika9_name">Марина костюшина</string>
+    <string name="chika10_name">Пакизе Нахайбайлова</string>
+
+    <!-- Города Девушек -->
+    <string name="ckika1_city">г. Сифмерополь</string>
+    <string name="ckika2_city">г. Нижнегорск</string>
+    <string name="ckika3_city">пгт. Советкий</string>
+    <string name="ckika4_city">пгт. Кировский</string>
+    <string name="ckika5_city">г. Симферополь</string>
+    <string name="ckika6_city">пгт. Азовское</string>
+    <string name="ckika7_city">пгт. Нижнегорск</string>
+    <string name="ckika8_city">пгт. Отрадное</string>
+    <string name="ckika9_city">г. Бахчисарай</string>
+    <string name="ckika10_city">г. Белогорск</string>
+
+    <!-- Рейтинг Девушек -->\
+    <string name="chika1_rating">840</string>
+    <string name="chika2_rating">730</string>
+    <string name="chika3_rating">604</string>
+    <string name="chika4_rating">501</string>
+    <string name="chika5_rating">498</string>
+    <string name="chika6_rating">483</string>
+    <string name="chika7_rating">432</string>
+    <string name="chika8_rating">390</string>
+    <string name="chika9_rating">359</string>
+    <string name="chika10_rating">355</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ImageViewCrown">TODO</string>
+    
+    <!-- Boy name-->
+    <string name="boy1_name">Ремзи Аметов</string>
+    <string name="boy2_name">Александр Ерошин</string>
+    <string name="boy3_name">Дмитрий Корш</string>
+    <string name="boy4_name">Кантимир Марзаев</string>
+    <string name="boy5_name">Алёша Бананов</string>
+    <string name="boy6_name">Дмитрий Ларин</string>
+    <string name="boy7_name">Эльдар Джарахов</string>
+    <string name="boy8_name">Андрей Афонин</string>
+    <string name="boy9_name">Эрик Давидович</string>
+    <string name="boy10_name">Виталий Грачев</string>
+    <!--Boy rating-->
+    <string name="boy1_rating">48</string>
+    <string name="boy2_rating">34</string>
+    <string name="boy3_rating">28</string>
+    <string name="boy4_rating">23</string>
+    <string name="boy5_rating">21</string>
+    <string name="boy6_rating">21</string>
+    <string name="boy7_rating">17</string>
+    <string name="boy8_rating">13</string>
+    <string name="boy9_rating">12</string>
+    <string name="boy10_rating">11</string>
+    <string name="todo">TODO1</string>
+
+    <!--Boy city-->
+    <string name="boy1_city">г. Сифмерополь</string>
+    <string name="boy2_city">г. Нижнегорск</string>
+    <string name="boy3_city">пгт. Советкий</string>
+    <string name="boy4_city">пгт. Кировский</string>
+    <string name="boy5_city">г. Симферополь</string>
+    <string name="boy6_city">пгт. Азовское</string>
+    <string name="boy7_city">пгт. Нижнегорск</string>
+    <string name="boy8_city">пгт. Отрадное</string>
+    <string name="boy9_city">г. Бахчисарай</string>
+    <string name="boy10_city">г. Белогорск</string>
+
+
+    <!--name toolbar-->
+    <string name="search_layout">Поиск</string>
+    <string name="notification_layout">Уведомление</string>
+    <string name="invite">Понравился</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+
+    <!-- Login and Register activity resources-->
+    <string name="no_account">No account?Create account</string>
+    <string name="register_new_account">REGISTR A NEW ACCOUNT</string>
+    <string name="name_register">FullName</string>
+    <string name="suraname">Suraname</string>
+    <string name="reapit_password">Reapit password</string>
+    <string name="choose_your_gender">Choose your gender</string>
+    <string name="choose_the_area_in_which_you_live">Choose the area in which you live</string>
+    <string name="register">Register</string>
+    <string name="select_a_search_area">Select a search area</string>
+    <string name="choose_the_age_of_the_person">Choose the age of the person</string>
+    <string name="_16">16</string>
+    <string name="_100">100</string>
+    <string name="serch_settings">Serch Settings</string>
+    <string name="my_dialog_home">Мои Диалоги</string>
+    <string name="next">далее</string>
+    <string name="rating_big">Мой рейтинг</string>
+    <string name="specify_the_age">Specify the age</string>
+    <string name="to_reset">To reset your password, select a question and answer it.</string>
+    <string name="specify">Specify themes on which you love to speak or your focus on maintaining, for example:</string>
+    <string name="write_something_about_yourself">Write something about yourself</string>
+    <string name="add">add</string>
+    <string name="AddRussian">Добавить</string>
+    <string name="answer_question">Answer question</string>
+    <string name="dialogurself">dialogUrself</string>
+    <string name="Interests">Интересы</string>
+    <string name="notification_name">Уведомление</string>
+    <string name="input">Вход</string>
+    <string name="SETTINS_PROFILE">НАСТРОЙКИ ПРОФИЛЯ</string>
+
+    <!--cities on  registration-->
+    <string-array name="city_register">
+        <item>Алуштинский район</item>
+        <item>Бахчисарайский район</item>
+        <item>Белогорский район</item>
+        <item>Джанкойский  район</item>
+        <item>Кировский район</item>
+        <item>Красногвардейский район</item>
+        <item>Красноперекопский район</item>
+        <item>Ленинский район</item>
+        <item>Нижнегорский район</item>
+        <item>Первомайский район</item>
+        <item>Раздольненский район</item>
+        <item>Севастополь</item>
+        <item>Сакский район</item>
+        <item>Симферопольский район</item>
+        <item>Советский район</item>
+        <item>Судакский район</item>
+        <item>Феодосийский район</item>
+        <item>Черноморский район</item>
+        <item>Ялтинский район</item>
+    </string-array>
+    
+<string-array name="age_people">
+    <item>16</item>
+    <item>17</item>
+    <item>18</item>
+    <item>19</item>
+    <item>20</item>
+    <item>21</item>
+    <item>22</item>
+    <item>23</item>
+    <item>24</item>
+    <item>25</item>
+    <item>26</item>
+    <item>27</item>
+    <item>28</item>
+    <item>29</item>
+    <item>30</item>
+    <item>31</item>
+    <item>32</item>
+    <item>33</item>
+    <item>34</item>
+    <item>35</item>
+</string-array>
+    
+    <string-array name="question_for_the_password">
+        <item>Ваше  хобби?</item>
+        <item>Ваше любимое блюдо?</item>
+        <item>Имя первого животного?</item>
+        <item>Ваша мечта?</item>
+        <item>Что вы любите больше всего?</item>
+        <item>Секретное слово</item>
+    </string-array>
+    
+
+</resources>

@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="three.version.project.amourversionfor.Rating.GirlsRatingFragment"
+    android:background="@color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="60dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/imageCrown"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/crown"
+                android:contentDescription="@string/ImageViewCrown" />
+            <TextView
+                android:id="@+id/rating_id_chika1"
+                android:layout_marginTop="187dp"
+                android:layout_centerHorizontal="true"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:background="@drawable/ratingmini"
+                android:text="@string/chika1_rating"
+                android:textColor="@color/white"
+                android:textStyle="bold"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/chika1"
+                android:layout_width="120dp"
+                android:layout_height="129dp"
+                android:layout_marginTop="65dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/girls_nubmer_1"
+                app:civ_border_color="@color/myDialig"
+                app:civ_border_width="2dp" />
+
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/rating_id_chika1"
+                android:layout_centerHorizontal="true"
+                android:gravity="center_horizontal"
+                android:text="@string/chika1_name"
+                android:textColor="@color/blackChikaname"/>
+            <RelativeLayout
+                android:layout_width="95dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="100dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_alignParentStart="true">
+                <TextView
+                    android:id="@+id/rating_id_chika2"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:text="@string/chika2_rating"
+                    android:layout_marginTop="93dp"
+                    android:layout_centerHorizontal="true"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:background="@drawable/ratingmini"/>
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="95dp"
+                android:layout_height="95dp"
+                app:civ_border_width="2dp"
+                app:civ_border_color="@color/myDialig"
+                android:src="@drawable/girls_number_2"
+                android:id="@+id/chika2" />
+
+
+            <TextView
+                android:id="@+id/name2"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/rating_id_chika2"
+                android:gravity="center"
+                android:layout_centerInParent="true"
+                android:text="@string/chika2_name"
+                android:textColor="@color/blackChikaname"  />
+            </RelativeLayout>
+
+
+<RelativeLayout
+    android:layout_width="80dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="115dp"
+    android:layout_alignParentRight="true"
+    android:layout_marginRight="30dp"
+    android:layout_alignParentEnd="true"
+    android:layout_marginEnd="30dp">
+    <TextView
+        android:id="@+id/rating_id_chika3"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:text="@string/chika3_rating"
+        android:layout_marginTop="77dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:background="@drawable/ratingmini"
+        android:gravity="center"/>
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/chika3"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                 android:src="@drawable/girls_number_3"
+                app:civ_border_color="@color/myDialig"
+                app:civ_border_width="2dp" />
+
+
+            <TextView
+                android:id="@+id/name3"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/rating_id_chika3"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:text="@string/chika3_name"
+                android:textColor="@color/blackChikaname"  />
+</RelativeLayout>
+
+            <RelativeLayout
+                android:layout_marginTop="16dp"
+                android:layout_centerInParent="true"
+                android:layout_below="@id/name"
+                android:layout_width="match_parent"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_height="350dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/user_information_background">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/chika4"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentLeft="true"
+                    android:src="@drawable/girls_number_4" android:layout_marginStart="8dp" android:layout_alignParentStart="true" />
+
+                <TextView
+                    android:layout_marginTop="8dp"
+                    android:id="@+id/name4"
+                    android:layout_toRightOf="@id/chika4"
+                    android:layout_marginLeft="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="@string/chika4_name" android:layout_toEndOf="@id/chika4" android:layout_marginStart="8dp" />
+
+                <TextView
+                    android:id="@+id/city_chika4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/name4"
+                    android:layout_alignStart="@+id/name4"
+                    android:layout_below="@+id/name4"
+                    android:text="@string/ckika4_city"
+                    android:textSize="11sp" />
+                <TextView
+                    android:id="@+id/rating_id_chika4"
+                    android:layout_alignRight="@id/chika4"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/chika4_rating"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginRight="8dp" android:layout_alignEnd="@id/chika4" android:layout_alignParentEnd="true" android:layout_marginEnd="8dp" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/chika5"
+                    android:layout_below="@id/chika4"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentLeft="true"
+                    android:src="@drawable/girls_number_5" android:layout_marginStart="8dp" android:layout_alignParentStart="true" />
+                <TextView
+                    android:id="@+id/city_chika5"
+                    android:layout_below="@id/name5"
+                    android:layout_toRightOf="@id/chika5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ckika5_city"
+                    android:layout_marginLeft="8dp"
+                    android:textSize="11sp" android:layout_toEndOf="@id/chika5" android:layout_marginStart="8dp" />
+                <TextView
+                    android:layout_below="@id/city_chika4"
+                    android:layout_marginTop="16dp"
+                    android:id="@+id/name5"
+                    android:layout_toRightOf="@id/chika5"
+                    android:layout_marginLeft="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="@string/chika5_name" android:layout_toEndOf="@id/chika5" android:layout_marginStart="8dp" />
+                <TextView
+                    android:layout_below="@id/rating_id_chika4"
+                    android:id="@+id/rating_id_chika5"
+                    android:layout_alignRight="@id/chika5"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/chika5_rating"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="32dp"
+                    android:layout_marginRight="8dp" android:layout_marginEnd="8dp" android:layout_alignEnd="@id/chika5" android:layout_alignParentEnd="true" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/chika6"
+                    android:layout_below="@id/chika5"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentLeft="true"
+                    android:src="@drawable/girls_number_6" android:layout_alignParentStart="true" android:layout_marginStart="8dp" />
+                <TextView
+                    android:layout_below="@id/city_chika5"
+                    android:layout_marginTop="16dp"
+                    android:id="@+id/name6"
+                    android:layout_toRightOf="@id/chika5"
+                    android:layout_marginLeft="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="@string/chika6_name" android:layout_marginStart="8dp" android:layout_toEndOf="@id/chika5" />
+                <TextView
+                    android:id="@+id/city_chika6"
+                    android:layout_below="@id/name6"
+                    android:layout_toRightOf="@id/chika5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ckika6_city"
+                    android:layout_marginLeft="8dp"
+                    android:textSize="11sp" android:layout_marginStart="8dp" android:layout_toEndOf="@id/chika5" />
+                <TextView
+                    android:layout_below="@id/rating_id_chika5"
+                    android:id="@+id/rating_id_chika6"
+                    android:layout_alignRight="@id/chika6"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/chika6_rating"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="32dp"
+                    android:layout_marginRight="8dp" android:layout_alignEnd="@id/chika6" android:layout_alignParentEnd="true" android:layout_marginEnd="8dp" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/chika7"
+                    android:layout_below="@id/chika6"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentLeft="true"
+                    android:src="@drawable/girls_number_7" android:layout_marginStart="8dp" android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_below="@id/city_chika6"
+                    android:layout_marginTop="16dp"
+                    android:id="@+id/name7"
+                    android:layout_toRightOf="@id/chika5"
+                    android:layout_marginLeft="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="@string/chika7_name" android:layout_marginStart="8dp" android:layout_toEndOf="@id/chika5" />
+                <TextView
+                    android:id="@+id/city_chika7"
+                    android:layout_below="@id/name7"
+                    android:layout_toRightOf="@id/chika5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ckika7_city"
+                    android:layout_marginLeft="8dp"
+                    android:textSize="11sp" android:layout_marginStart="8dp" android:layout_toEndOf="@id/chika5" />
+                <TextView
+                    android:layout_below="@id/rating_id_chika6"
+                    android:id="@+id/rating_id_chika7"
+                    android:layout_alignRight="@id/chika7"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/chika7_rating"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="32dp"
+                    android:layout_marginRight="8dp" android:layout_alignEnd="@id/chika7" android:layout_alignParentEnd="true" android:layout_marginEnd="8dp" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/chika8"
+                    android:layout_below="@id/chika7"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentLeft="true"
+                    android:src="@drawable/girls_number_8" android:layout_alignParentStart="true" android:layout_marginStart="8dp" />
+
+                <TextView
+                    android:layout_below="@id/city_chika7"
+                    android:layout_marginTop="8dp"
+                    android:id="@+id/name8"
+                    android:layout_toRightOf="@id/chika6"
+                    android:layout_marginLeft="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="@string/chika8_name"
+                    android:layout_marginStart="8dp"
+                    android:layout_toEndOf="@id/chika6" />
+                <TextView
+                    android:id="@+id/city_chika8"
+                    android:layout_below="@id/name8"
+                    android:layout_toRightOf="@id/chika8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ckika8_city"
+                    android:layout_marginLeft="8dp"
+                    android:textSize="11sp" android:layout_toEndOf="@id/chika8" android:layout_marginStart="8dp" />
+                <TextView
+                    android:layout_below="@id/rating_id_chika7"
+                    android:id="@+id/rating_id_chika8"
+                    android:layout_alignRight="@id/chika8"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/chika8_rating"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="32dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_alignEnd="@id/chika8"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="8dp" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/chika9"
+                    android:layout_below="@id/chika8"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentLeft="true"
+                    android:src="@drawable/girls_number_9" android:layout_alignParentStart="true" android:layout_marginStart="8dp" />
+                <TextView
+                    android:layout_below="@id/city_chika8"
+                    android:layout_marginTop="16dp"
+                    android:id="@+id/name9"
+                    android:layout_toRightOf="@id/chika8"
+                    android:layout_marginLeft="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="@string/chika9_name"
+                    android:layout_marginStart="8dp"
+                    android:layout_toEndOf="@id/chika8" />
+                <TextView
+                    android:id="@+id/city_chika9"
+                    android:layout_below="@id/name9"
+                    android:layout_toRightOf="@id/chika9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ckika9_city"
+                    android:layout_marginLeft="8dp"
+                    android:textSize="11sp"
+                    android:layout_toEndOf="@id/chika9"
+                    android:layout_marginStart="8dp"/>
+                <TextView
+                    android:layout_below="@id/rating_id_chika8"
+                    android:id="@+id/rating_id_chika9"
+                    android:layout_alignRight="@id/chika9"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/chika9_rating"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="32dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_alignEnd="@id/chika9"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="8dp" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/chika10"
+                    android:layout_below="@id/chika9"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentLeft="true"
+                    android:src="@drawable/girls_nubmer_10"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="8dp" />
+                <TextView
+                    android:layout_below="@id/city_chika9"
+                    android:layout_marginTop="16dp"
+                    android:id="@+id/name10"
+                    android:layout_toRightOf="@id/chika9"
+                    android:layout_marginLeft="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="@string/chika10_name"
+                    android:layout_marginStart="8dp"
+                    android:layout_toEndOf="@id/chika9" />
+                <TextView
+                    android:id="@+id/city_chika10"
+                    android:layout_below="@id/name10"
+                    android:layout_toRightOf="@id/chika9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ckika10_city"
+                    android:layout_marginLeft="8dp"
+                    android:textSize="11sp"
+                    android:layout_toEndOf="@id/chika10"
+                    android:layout_marginStart="8dp"/>
+                <TextView
+                    android:layout_below="@id/rating_id_chika9"
+                    android:id="@+id/rating_id_chika10"
+                    android:layout_alignRight="@id/chika10"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/chika10_rating"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="32dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_alignEnd="@id/chika10"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="8dp" />
+
+
+
+            </RelativeLayout>
+            <LinearLayout
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="32dp"
+                android:layout_marginStart="32dp"
+                android:background="@drawable/ratingbg"
+                android:orientation="vertical"
+                android:paddingLeft="2dp"
+                android:paddingRight="2dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="100"
+                    android:textColor="@color/white"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="РЕЙТИНГ"
+                    android:textColor="@color/white"
+                    android:textSize="11sp" />
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

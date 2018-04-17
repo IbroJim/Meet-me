@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp">
+        <TextView
+            android:layout_marginTop="16dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/register_new_account"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/editTextName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:hint="@string/name_register"
+                android:textSize="16sp"
+                android:shadowColor="@color/black"
+                />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/editTextSurname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+            <EditText
+                android:shadowColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:hint="@string/login"
+                android:textSize="16sp"
+                />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/editTextLoginRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:hint="@string/password"
+                android:shadowColor="@color/black"
+                android:textSize="16sp"
+                />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/editTextPasswordRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:hint="@string/reapit_password"
+                android:textColor="@color/black"
+                android:shadowColor="@color/black"
+                android:textSize="16sp"
+                />
+        </android.support.design.widget.TextInputLayout>
+
+
+
+        <TextView
+            android:textSize="17sp"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/choose_your_gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+
+        <io.ghyeok.stickyswitch.widget.StickySwitch
+            android:layout_gravity="center"
+            android:id="@+id/sticky_switch"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            app:ss_iconPadding="14dp"
+            app:ss_iconSize="18dp"
+            app:ss_leftIcon="@drawable/ic_male"
+            app:ss_leftText="Male"
+            app:ss_rightIcon="@drawable/ic_female"
+            app:ss_rightText="Female"
+            app:ss_selectedTextSize="14sp"
+            app:ss_sliderBackgroundColor="@color/white"
+            app:ss_switchColor="@color/black"
+            app:ss_textColor="@color/black"
+            app:ss_textSize="12sp"
+            android:layout_marginBottom="30dp"/>
+
+        <TextView
+        android:textSize="17sp"
+        android:text="@string/choose_the_area_in_which_you_live"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+        <Spinner
+            android:layout_marginTop="6dp"
+            android:id="@+id/spinnerCity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </Spinner>
+
+        <LinearLayout
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:textSize="17sp"
+                android:text="@string/specify_the_age"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <Spinner
+                android:id="@+id/ageSpinner"
+                android:layout_gravity="right"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginTop="16dp"
+            android:textSize="17sp"
+            android:text="@string/to_reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <Spinner
+            android:layout_marginTop="16dp"
+            android:id="@+id/questionResetPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/editTextAnswer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:hint="@string/answer_question"
+                android:textColor="@color/black"
+                android:shadowColor="@color/black"
+                android:textSize="16sp"
+                />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.v7.widget.AppCompatButton
+            android:layout_marginTop="8dp"
+            android:id="@+id/nextButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:background="@drawable/button_login_background"
+            android:padding="12dp"
+            android:text="@string/next" />
+
+    </LinearLayout>
+</ScrollView>
+</RelativeLayout>

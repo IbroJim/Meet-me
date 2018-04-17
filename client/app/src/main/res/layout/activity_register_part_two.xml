@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/milkgrey"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    >
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="25dp"
+    android:layout_marginRight="25dp"
+    android:orientation="vertical"
+    android:layout_centerVertical="true">
+
+
+    <TextView
+        android:layout_marginTop="8dp"
+        android:textSize="17sp"
+        android:layout_gravity="center"
+        android:text="@string/specify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        />
+
+    <me.gujun.android.taggroup.TagGroup
+        android:id="@+id/tagGroupExample"
+        android:layout_marginTop="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:atg_backgroundColor="@color/myDialig"
+        app:atg_borderColor="@color/myDialig"
+        app:atg_textColor="@color/white"
+        app:atg_verticalPadding="5dp"
+        app:atg_horizontalPadding="5dp"
+        app:atg_verticalSpacing="8dp" />
+
+    <me.gujun.android.taggroup.TagGroup
+        android:layout_marginTop="16dp"
+        android:id="@+id/tagGroupRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:atg_backgroundColor="@color/myDialig"
+        app:atg_borderColor="@color/myDialig"
+        app:atg_textColor="@color/white"
+        app:atg_horizontalSpacing="5dp"
+        app:atg_verticalPadding="6dp"
+        app:atg_horizontalPadding="5dp"
+        app:atg_verticalSpacing="5dp"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_toLeftOf="@id/imageAddTag"
+            android:id="@+id/editTag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:layout_alignParentRight="true"
+            android:id="@+id/imageAddTag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_add"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:minHeight="100dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/user_information_background"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/urself"
+            android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+           android:hint="Введите информацию о себе"
+            android:imeOptions="actionDone"
+            android:gravity="left|top"
+            android:backgroundTint="@color/white" />
+
+ </LinearLayout>
+
+
+    <android.support.v7.widget.AppCompatButton
+        android:layout_marginTop="8dp"
+        android:id="@+id/nextButtonGallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/button_login_background"
+        android:padding="12dp"
+        android:text="@string/next" />
+
+</LinearLayout>
+</RelativeLayout>

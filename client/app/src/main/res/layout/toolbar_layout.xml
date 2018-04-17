@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/new_bnv_view">
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/gridTollbbar">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                  <ImageView
+                      android:layout_width="30dp"
+                      android:layout_height="30dp"
+                      android:layout_centerVertical="true"
+                      android:id="@+id/close"
+                      android:src="@drawable/ic_close" />
+                <Spinner
+                    android:id="@+id/spinnerFielPictures"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/close"
+                    android:layout_toEndOf="@id/close"
+                    android:layout_centerVertical="true"
+                    android:gravity="center_vertical"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="@string/AddRussian"
+                    android:textSize="20sp"
+                    android:textColor="@color/link"
+                    android:layout_marginRight="16sp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="16sp" />
+            </RelativeLayout>
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+</merge>

@@ -1,0 +1,521 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    tools:context="three.version.project.amourversionfor.Rating.BoyRatingFragment"
+    android:background="@color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="60dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="90dp"
+                android:src="@drawable/hat"
+                android:layout_centerHorizontal="true"
+                android:paddingBottom="8dp"
+                />
+            <TextView
+                android:id="@+id/rating_boy1"
+                android:layout_marginTop="197dp"
+                android:layout_centerHorizontal="true"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:text="@string/boy1_rating"
+                android:gravity="center"
+                android:background="@drawable/ratingmini"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:textStyle="bold"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/boy1"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/boy1"
+                app:civ_border_color="@color/blackChikaname"
+                android:layout_marginTop="70dp"
+                app:civ_border_width="2dp" />
+
+
+            <TextView
+                android:id="@+id/boy1_name"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/rating_boy1"
+                android:layout_centerHorizontal="true"
+                android:gravity="center_horizontal"
+                android:text="@string/boy1_name"
+                android:textColor="@color/blackChikaname"/>
+        <RelativeLayout
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="85dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            >
+            <TextView
+                android:id="@+id/boy2_rating"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:text="@string/boy2_rating"
+                android:gravity="center"
+                android:layout_marginTop="113dp"
+                android:background="@drawable/ratingmini"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textColor="@color/white" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="115dp"
+                android:layout_height="115dp"
+                app:civ_border_width="2dp"
+                app:civ_border_color="@color/black"
+                android:src="@drawable/boy2"
+                android:id="@+id/boy2" />
+
+
+            <TextView
+                android:id="@+id/boy2_name"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/boy2_rating"
+                android:gravity="center"
+                android:layout_centerInParent="true"
+                android:text="@string/boy1_name"
+                android:textColor="@color/blackChikaname" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="98dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="105dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="30dp"
+            android:layout_alignParentEnd="true">
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:id="@+id/boy3_rating"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:text="@string/boy3_rating"
+                android:background="@drawable/ratingmini"
+                android:gravity="center"
+                android:layout_marginTop="95dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                />
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/boy3"
+                android:layout_width="98dp"
+                android:layout_height="98dp"
+                android:src="@drawable/boy3"
+                app:civ_border_color="@color/black"
+                app:civ_border_width="2dp" />
+
+
+            <TextView
+                android:layout_centerInParent="true"
+                android:id="@+id/boy3_name"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/boy3_rating"
+                android:gravity="center"
+                android:text="@string/boy3_name"
+                android:textColor="@color/blackChikaname" />
+        </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_marginTop="16dp"
+                android:layout_centerInParent="true"
+                android:layout_below="@id/boy1_name"
+                android:layout_width="match_parent"
+                android:layout_marginRight="32dp"
+                android:layout_marginLeft="32dp"
+                android:layout_height="350dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/user_information_background">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/boy4"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentLeft="true"
+                    android:src="@drawable/boy4"
+                    android:layout_marginStart="8dp"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_marginTop="8dp"
+                    android:id="@+id/boy_name4"
+                    android:layout_toRightOf="@id/boy4"
+                    android:layout_marginLeft="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="@string/boy4_name"
+                    android:layout_toEndOf="@id/boy4"
+                    android:layout_marginStart="8dp" />
+
+                <TextView
+                    android:id="@+id/boy4_city"
+                    android:layout_below="@id/boy_name4"
+                    android:layout_toRightOf="@id/boy4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/boy4_city"
+                    android:layout_marginLeft="8dp"
+                    android:textSize="11sp"
+                    android:layout_marginStart="8dp"
+                    android:layout_toEndOf="@id/boy4" />
+
+                <TextView
+                    android:id="@+id/boy4_rating"
+                    android:layout_alignRight="@id/boy4"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/boy4_rating"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_alignEnd="@id/boy4"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="8dp" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/boy5"
+                    android:layout_below="@id/boy4"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentLeft="true"
+                    android:src="@drawable/boy5"
+                    android:layout_marginStart="8dp"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_below="@id/boy4_city"
+                    android:layout_marginTop="16dp"
+                    android:id="@+id/boy_name5"
+                    android:layout_toRightOf="@id/boy5"
+                    android:layout_marginLeft="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="@string/boy5_name"
+                    android:layout_toEndOf="@id/boy5"
+                    android:layout_marginStart="8dp" />
+                <TextView
+                    android:id="@+id/boy5_city"
+                    android:layout_below="@id/boy_name5"
+                    android:layout_toRightOf="@id/boy5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/boy5_city"
+                    android:layout_marginLeft="8dp"
+                    android:textSize="11sp"
+                    android:layout_toEndOf="@id/boy5"
+                    android:layout_marginStart="8dp" />
+                <TextView
+                    android:layout_below="@id/boy4_rating"
+                    android:id="@+id/boy_rating5"
+                    android:layout_alignRight="@id/boy5"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/boy5_rating"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="32dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_alignEnd="@id/boy5"
+                    android:layout_alignParentEnd="true" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/boy6"
+                    android:layout_below="@id/boy5"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentLeft="true"
+                    android:src="@drawable/boy6"
+                    android:layout_marginStart="8dp"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_below="@id/boy5_city"
+                    android:layout_marginTop="16dp"
+                    android:id="@+id/boy_name6"
+                    android:layout_toRightOf="@id/boy6"
+                    android:layout_marginLeft="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="@string/boy6_name"
+                    android:layout_toEndOf="@id/boy6"
+                    android:layout_marginStart="8dp" />
+                <TextView
+                    android:id="@+id/boy6_city"
+                    android:layout_below="@id/boy_name6"
+                    android:layout_toRightOf="@id/boy5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/boy6_city"
+                    android:layout_marginLeft="8dp"
+                    android:textSize="11sp"
+                    android:layout_toEndOf="@id/boy6"
+                    android:layout_marginStart="8dp" />
+                <TextView
+                    android:layout_below="@id/boy_rating5"
+                    android:id="@+id/boy_rating6"
+                    android:layout_alignRight="@id/boy6"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/boy6_rating"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="32dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_alignEnd="@id/boy6"
+                    android:layout_alignParentEnd="true" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/boy7"
+                    android:layout_below="@id/boy6"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentLeft="true"
+                    android:src="@drawable/boy7"
+                    android:layout_marginStart="8dp"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_below="@id/boy6_city"
+                    android:layout_marginTop="16dp"
+                    android:id="@+id/boy_name7"
+                    android:layout_toRightOf="@id/boy7"
+                    android:layout_marginLeft="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="@string/boy7_name"
+                    android:layout_toEndOf="@id/boy6"
+                    android:layout_marginStart="8dp" />
+                <TextView
+                    android:id="@+id/boy7_city"
+                    android:layout_below="@id/boy_name7"
+                    android:layout_toRightOf="@id/boy7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/boy7_city"
+                    android:layout_marginLeft="8dp"
+                    android:textSize="11sp"
+                    android:layout_toEndOf="@id/boy7"
+                    android:layout_marginStart="8dp" />
+                <TextView
+                    android:layout_below="@id/boy_rating6"
+                    android:id="@+id/boy_rating7"
+                    android:layout_alignRight="@id/boy7"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/boy7_rating"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="32dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_alignEnd="@id/boy7"
+                    android:layout_alignParentEnd="true" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/boy8"
+                    android:layout_below="@id/boy7"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentLeft="true"
+                    android:src="@drawable/boy8"
+                    android:layout_marginStart="8dp"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_below="@id/boy7_city"
+                    android:layout_marginTop="16dp"
+                    android:id="@+id/boy_name8"
+                    android:layout_toRightOf="@id/boy8"
+                    android:layout_marginLeft="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="@string/boy8_name"
+                    android:layout_toEndOf="@id/boy6"
+                    android:layout_marginStart="8dp" />
+                <TextView
+                    android:id="@+id/boy8_city"
+                    android:layout_below="@id/boy_name8"
+                    android:layout_toRightOf="@id/boy8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/boy8_city"
+                    android:layout_marginLeft="8dp"
+                    android:textSize="11sp"
+                    android:layout_toEndOf="@id/boy8"
+                    android:layout_marginStart="8dp" />
+                <TextView
+                    android:layout_below="@id/boy_rating7"
+                    android:id="@+id/boy_rating8"
+                    android:layout_alignRight="@id/boy8"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/boy8_rating"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="32dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_alignEnd="@id/boy8"
+                    android:layout_alignParentEnd="true" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/boy9"
+                    android:layout_below="@id/boy8"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentLeft="true"
+                    android:src="@drawable/boy9"
+                    android:layout_marginStart="8dp"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_below="@id/boy8_city"
+                    android:layout_marginTop="16dp"
+                    android:id="@+id/boy_name9"
+                    android:layout_toRightOf="@id/boy9"
+                    android:layout_marginLeft="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="@string/boy9_name"
+                    android:layout_toEndOf="@id/boy8"
+                    android:layout_marginStart="8dp" />
+                <TextView
+                    android:id="@+id/boy9_city"
+                    android:layout_below="@id/boy_name9"
+                    android:layout_toRightOf="@id/boy9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/boy9_city"
+                    android:layout_marginLeft="8dp"
+                    android:textSize="11sp"
+                    android:layout_toEndOf="@id/boy9"
+                    android:layout_marginStart="8dp" />
+                <TextView
+                    android:layout_below="@id/boy_rating8"
+                    android:id="@+id/boy_rating9"
+                    android:layout_alignRight="@id/boy9"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/boy9_rating"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="32dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_alignEnd="@id/boy9"
+                    android:layout_alignParentEnd="true" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/boy10"
+                    android:layout_below="@id/boy9"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentLeft="true"
+                    android:src="@drawable/boy10"
+                    android:layout_marginStart="8dp"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_below="@id/boy9_city"
+                    android:layout_marginTop="12dp"
+                    android:id="@+id/boy_name10"
+                    android:layout_toRightOf="@id/boy10"
+                    android:layout_marginLeft="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="@string/boy10_name"
+                    android:layout_toEndOf="@id/boy9"
+                    android:layout_marginStart="8dp" />
+                <TextView
+                    android:id="@+id/boy10_city"
+                    android:layout_below="@id/boy_name10"
+                    android:layout_toRightOf="@id/boy10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/boy10_city"
+                    android:layout_marginLeft="8dp"
+                    android:textSize="11sp"
+                    android:layout_toEndOf="@id/boy10"
+                    android:layout_marginStart="8dp" />
+
+                <TextView
+                    android:layout_below="@id/boy_rating9"
+                    android:id="@+id/boy_rating10"
+                    android:layout_alignRight="@id/boy10"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/boy10_rating"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="32dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_alignEnd="@id/boy10"
+                    android:layout_alignParentEnd="true" />
+
+            </RelativeLayout>
+            <LinearLayout
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_alignLeft="@+id/relativeLayout"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="32dp"
+                android:layout_marginStart="32dp"
+                android:background="@drawable/ratingbg"
+                android:orientation="vertical"
+                android:paddingLeft="2dp"
+                android:paddingRight="2dp"
+                android:layout_alignStart="@+id/relativeLayout">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="100"
+                    android:textColor="@color/white"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="РЕЙТИНГ"
+                    android:textColor="@color/white"
+                    android:textSize="13sp" />
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

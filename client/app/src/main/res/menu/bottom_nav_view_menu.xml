@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home_id"
+        android:icon="@drawable/ic_home"
+        android:title="@string/icon_home" />
+    <item
+        android:id="@+id/searh_id"
+        android:icon="@drawable/ic_search"
+        android:title="@string/icon_search"/>
+    <item
+        android:id="@+id/rating_id"
+        android:icon="@drawable/ic_rating"
+        android:title="@string/icon_rating"/>
+    <item
+        android:id="@+id/notification_id"
+        android:title="@string/icon_notification"
+        android:icon="@drawable/ic_notification"
+       />
+</menu>

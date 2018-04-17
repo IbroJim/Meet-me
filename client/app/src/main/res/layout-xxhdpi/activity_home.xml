@@ -1,0 +1,138 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="three.version.project.amourversionfor.Home.HomeActivity"
+    android:background="@color/milkgrey">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="50dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="100">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="57">
+                <ImageView
+                    android:src="@drawable/girls_number_5"
+                    android:scaleType="centerCrop"
+                    android:adjustViewBounds="true"
+                    android:id="@+id/imageUsers"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/hello_world"
+                    />
+                <ProgressBar
+                    android:id="@+id/progressBar"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp" />
+                <LinearLayout
+                    android:layout_alignBottom="@id/imageUsers"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="#40000000">
+                    <TextView
+                        android:id="@+id/name_girl"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:text="@string/namess"
+                        android:textColor="@color/white"
+                        android:layout_gravity="center"/>
+                </LinearLayout>
+
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="43">
+                <LinearLayout
+                    android:id="@+id/ratingLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp">
+                    <include layout="@layout/help_home_layout"/>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_below="@id/ratingLayout"
+                    android:layout_marginTop="8dp"
+                    android:id="@+id/tag_layoutid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:background="@drawable/user_information_background"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Интересы"
+                        android:gravity="center"
+                        android:textSize="16sp"
+                        android:textColor="@color/black"/>
+                    <me.gujun.android.taggroup.TagGroup
+                        android:id="@+id/tagLayout"
+                        android:layout_marginRight="16dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="75dp"
+                        app:atg_backgroundColor="@color/myDialig"
+                        app:atg_borderColor="@color/myDialig"
+                        app:atg_textColor="@color/white"
+                        app:atg_verticalPadding="3dp"
+                        app:atg_horizontalPadding="4dp"
+                        app:atg_verticalSpacing="6dp"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_below="@id/tag_layoutid"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/user_information_background"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/Osebe"
+                        android:textColor="@color/black"
+                        android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/urselfInforamtion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="5"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:text="@string/informationusers"
+                    android:layout_marginBottom="4dp"/>
+                </LinearLayout>
+
+            </RelativeLayout>
+        </LinearLayout>
+        </RelativeLayout>
+        <include layout="@layout/bottom_nav" />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
